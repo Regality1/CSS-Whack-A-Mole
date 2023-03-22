@@ -2,29 +2,34 @@
 .wgs {
   display: inline-block;
   position: relative;
-  height: 482px;
-  width: 640px;
+  height: 241px;
+  width: 320px;
   overflow: hidden;
   
 }
 .wgs__mole-head {
   position: absolute;
-  height: 356px;
-  width: 376px;
-  left: 109px;
+  height: 178px;
+  width: 188x;
+  left: 54.5px;
   top: 0;
   transition: margin-top 0.5s;
   
 }
 .wgs__dirt-pile {
   position: absolute;
-  height: 220px;
-  width: 640px;
+  height: 110px;
+  width: 320px;
   bottom: 0;
-  top: 262px;
+  top: 131px;
 }
 .wgs__mole-head--hidden {
-  margin-top: 482px;
+  margin-top: 241px;
+}
+.pf {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 
 
