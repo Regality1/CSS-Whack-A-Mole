@@ -1,16 +1,19 @@
 /* Your code here */
 .wgs {
+  display: inline-block;
   position: relative;
   height: 482px;
   width: 640px;
+  overflow: hidden;
   
 }
 .wgs__mole-head {
   position: absolute;
   height: 356px;
   width: 376px;
-  left: 117px;
+  left: 109px;
   top: 0;
+  transition: margin-top 0.5s;
   
 }
 .wgs__dirt-pile {
@@ -19,6 +22,9 @@
   width: 640px;
   bottom: 0;
   top: 262px;
+}
+.wgs__mole-head--hidden {
+  margin-top: 482px;
 }
 
 
